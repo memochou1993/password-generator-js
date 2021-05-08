@@ -2,7 +2,7 @@ import generate from '../src';
 
 test('generate', () => {
   const config = {
-    range: 20,
+    length: 20,
     letters: true,
     symbols: false,
     numbers: false,
