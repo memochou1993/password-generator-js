@@ -1,5 +1,5 @@
 {
-  "name": "@memochou1993/password-generator",
+  "name": "@memochou1993/password-generator-js",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -9,18 +9,18 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint src"
+    "lint": "eslint src test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/memochou1993/password-generator.git"
+    "url": "git+https://github.com/memochou1993/password-generator-js.git"
   },
   "author": "Memo Chou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/memochou1993/password-generator/issues"
+    "url": "https://github.com/memochou1993/password-generator-js/issues"
   },
-  "homepage": "https://github.com/memochou1993/password-generator#readme",
+  "homepage": "https://github.com/memochou1993/password-generator-js#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.22.1",

@@ -1,4 +1,4 @@
-import generate from '../src';
+import Generator from '../src';
 
 test('generate', () => {
   const config = {
@@ -7,5 +7,6 @@ test('generate', () => {
     symbols: false,
     numbers: false,
   };
-  expect(generate(config)).toHaveLength(20);
+  const password = Generator.generate(config);
+  expect(password).toHaveLength(20);
 });
