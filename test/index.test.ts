@@ -1,5 +1,5 @@
-import { hello } from '../src';
+import { generate } from '../src';
 
-test('hello', () => {
-  expect(hello('World')).toEqual('Hello World');
+test('generate', () => {
+  expect(generate(10)).toHaveLength(10);
 });
