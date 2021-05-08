@@ -1,5 +1,11 @@
-import { generate } from '../src';
+import generate from '../src';
 
 test('generate', () => {
-  expect(generate(10)).toHaveLength(10);
+  const config = {
+    range: 20,
+    letters: true,
+    symbols: false,
+    numbers: false,
+  };
+  expect(generate(config)).toHaveLength(20);
 });
