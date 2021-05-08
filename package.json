@@ -1,8 +1,11 @@
 {
-  "name": "password-generator",
+  "name": "@memochou1993/password-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
